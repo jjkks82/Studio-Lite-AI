@@ -30,7 +30,7 @@ app.post("/chat", async (req, res) => {
     return res.status(400).json({ ok: false, error: "message field is required" });
   }
 
-  const GROQ_KEY   = process.env.GROQ_API_KEY   || "";
+  const GROQ_KEY   = process.env.GROQ_API_KEY   || "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";
   const OPENAI_KEY = process.env.OPENAI_API_KEY  || "";
 
   let apiKey, apiUrl, modelName;
